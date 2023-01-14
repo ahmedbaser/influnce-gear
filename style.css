@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    border: none;
+    font-family: 'Roboto', sans-serif;;
+
+}
+:root {
+    --main-color: #3A3A3A;
+}
+
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  z-index: 1000;
+
+}
+
+header .logo {
+    color: var(--main-color);
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 87px;
+    font-weight: 700;
+    
+}
+header .navbar a {
+  color: var(--main-color);
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 34px;
+  margin-top: 95px; 
+  
+}
+.home {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.home .content {
+  width: 582px;
+  height: 270px;
+  margin-left: 120px;
+  margin-top: 145px;
+  margin-right: 133px;
+
+}
+.home .content .home-title {
+  width: 582px;
+  height: 133px;
+  font-size: 56px;
+  margin-bottom: 16px;
+}
+.home .content .author {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.home .content .btn {
+  color:  #FFFFFF;
+  background-color: #E02C6D;
+  padding: 10px 24px;
+  width: 196px;
+  height: 44px;
+  border-radius: 41px;
+}
+
+
+.home .image img {
+  width: 440px;
+  height: 414px;
+  margin-right: 165px;
+  margin-top: 80px;
+}
+
+/* home style end  */
